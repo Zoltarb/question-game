@@ -4,12 +4,14 @@ html {
 }
 
 body {
+     padding: 20px 50px;
      background-color: white;
     font-family: "Arial", sans-serif;
     font-size: 1.2em;
     line-height: 1.5em;
     color: #000000;
     margin: 0 auto;
+    margin-top: 10px;
     width: 100%;
     max-width: 1020px;
     min-width: 640px;

@@ -3,22 +3,25 @@ html {
 }
 
 body {
+  padding: 20px 50px;
      background-color: white;
     font-family: "Arial", sans-serif;
     font-size: 1.2em;
     line-height: 1.5em;
     color: #000000;
     margin: 0 auto;
+    margin-top: 10px;
     width: 100%;
     max-width: 1020px;
     min-width: 640px;
     text-align: center;
+    line-height: 2.5em;
 }
 
 .button-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: dodgerblue;
+  background-color: rgb(20, 185, 235);
   padding: 10px;
 }
 .button-container div {
@@ -27,4 +30,12 @@ body {
   padding: 10px;
   font-size: 30px;
   text-align: center;
+
+}
+.button-container div:hover {
+  background-color: #ddd;
+}
+div a {
+  text-decoration: none;
+  color: black;
 }
