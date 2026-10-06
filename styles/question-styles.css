@@ -1,0 +1,30 @@
+html {
+    background-color:rgb(20, 185, 235)
+}
+
+body {
+     background-color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #000000;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1020px;
+    min-width: 640px;
+    text-align: center;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.button-container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
